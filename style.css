@@ -1,0 +1,55 @@
+*, ::before, ::after{
+    border-style: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+/* Main */
+h1{
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    height: 70px;
+    width: 100%;
+}
+
+/* Navigation */
+.navbar{
+    background: #333;
+    height: 70px;
+    width: 100%;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.navbar ul li{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 30px auto;
+}
+.champ-recherche{
+    margin: auto;
+}
+
+.navbar ul li a{
+    margin: 0 20px;
+}
+
+#rechercher{
+    width: 20vh;
+    margin: 0 10px;
+    padding: 2px;
+}
+
+button{
+    padding: 2px 5px;
+}
+
